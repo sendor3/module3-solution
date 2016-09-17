@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    border-left: 2px solid #b90707;
+    border-bottom: 2px solid #b90707;
+    padding: 10px;
+    margin: 0;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    clear: right;
+    font-size: 1.25em;
+    font-weight: bold;
+    max-width: 150px;
+    background: rgb(204, 204, 204);
+    color: rgb(29, 29, 29);
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.row {
+    margin-bottom: 15px;
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 10px;
+    clear: both;
+    position: relative;
+}
+
+.col {
+    border: 2px solid rgb(255, 0, 0);
+    background: rgb(55, 55, 55);
+    margin: 2% 2% 2% 0;
+    width: 31.3%;
+    float: left;
+    position: relative;
+}
+
+div.col p {
+    color: rgb(250, 255, 250);
+    padding: 70px 30px 26px 30px;
+    display: block;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@media screen (min-width: 1200px) {
+    .col {
+        float: left;
+    }
+    .col {
+        width: 275px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col {
+        float: left;
+    }
+    .col {
+        width: 48%;
+    }
+    #second {
+        margin-right: 0;
+    }
+    #third {
+        width: 100%;
+    }
+    p {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col {
+        width: 100%;
+    }
+}
